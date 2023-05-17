@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+    font-family: "Inter";
+}
+#Cabeçalho{
+    background-color: #303030;
+    color: #FFFFFF;
+}
+#headtit{
+    padding-top: 206px;
+    margin-left: 62px;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: -0.025em;
+}
+#headp{
+    margin-top: 20px;
+    margin-left: 62px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    padding-bottom: 148px;
+}
+
+
+#sectinfo{
+    background-color:#F9F9F9;
+    padding-left: 171px;
+    display: grid;
+    grid-auto-flow: column;
+    line-height: 28px;
+}
+.hinfo{
+    margin-top: 96px;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 28px;
+}
+.pinfo{
+    margin-top: 5px;
+    font-weight: 400;
+    font-size: 20px;
+    padding-bottom: 65px;
+}
+
+
+#secthist{
+    display: grid;
+    grid-auto-flow: column;
+}
+#Textohist{
+    align-items: center;
+    margin-top: 270px;
+    margin-left: 60.5px;
+}
+#imagemhist{
+    margin-top: 82px;
+    margin-bottom: 92px;
+    margin-left: 40px;
+    border-radius: 30px;
+}
+#tithist{
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 20px;
+}
+#phist{
+    text-align: left;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 30px;
+    margin-top: 55px;
+}
+
+#formulario{
+    text-align: center;
+    background-color: #303030;
+}
+#textoform{
+    padding-top: 85px;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+input{
+    margin-top: 50px;
+    margin-bottom: 12px;
+    width: 508px;
+    height: 72px;
+    border-radius: 10px;
+    padding-left: 30px;
+    border: 0px;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+}
+button{
+    width: 286px;
+    height: 74px;
+    color: #FFFFFF;
+    background: #C07212;
+    margin-top: 74px;
+    font-weight: bolder;
+    font-size: 30px;
+    line-height: 30px;
+    border-radius: 10px;
+    border: 0px;
+    font-family: 'Raleway';
+    margin-bottom: 87px;
+    cursor: pointer;
+}
+button:hover{
+    transform: translateY(-7px);
+    transition-duration: 1s;
+    color: #FFFFFF;
+    background: #d37d13;
+    box-shadow: #3a2d1d5d;
+}
